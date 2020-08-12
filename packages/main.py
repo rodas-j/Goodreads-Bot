@@ -12,9 +12,9 @@ from Goodreads_Page import *
 import urllib.parse
 from urllib.parse import urlparse
 
-bot = telegram.Bot(token='621697472:AAFIgz7WpxP34D_kSBeSiblYm6ZxjrpC67Q')
+bot = telegram.Bot(token='TOKEN')
 
-updater = Updater(token='621697472:AAFIgz7WpxP34D_kSBeSiblYm6ZxjrpC67Q', use_context=True)
+updater = Updater(token='TOKEN', use_context=True)
 dispatcher = updater.dispatcher #for quick access of dispatcher
 
 #Exception Handling: https://github.com/python-telegram-bot/python-telegram-bot/wiki/Exception-Handling
